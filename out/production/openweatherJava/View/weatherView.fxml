@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -22,10 +23,15 @@
                   <Insets top="15.0" />
                </VBox.margin>
             </Label>
-            <TextField fx:id="zipCodeTextBox" prefHeight="25.0" prefWidth="348.0" promptText="Enter Zip/Postal Code">
+            <TextField fx:id="zipCodeTextBox" onKeyPressed="#onKeyPressedEnter" prefHeight="25.0" prefWidth="348.0" promptText="Enter Zip/Postal Code">
                <VBox.margin>
                   <Insets left="100.0" right="100.0" top="15.0" />
                </VBox.margin></TextField>
+            <Button mnemonicParsing="false" onAction="#onActionSearchButton" text="Search">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
             <Label fx:id="cityLabel" text="Current Conditions for">
                <VBox.margin>
                   <Insets top="50.0" />

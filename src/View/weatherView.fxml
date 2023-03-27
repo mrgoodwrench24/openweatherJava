@@ -23,7 +23,7 @@
                   <Insets top="15.0" />
                </VBox.margin>
             </Label>
-            <TextField fx:id="zipCodeTextBox" prefHeight="25.0" prefWidth="348.0" promptText="Enter Zip/Postal Code">
+            <TextField fx:id="zipCodeTextBox" onKeyPressed="#onKeyPressedEnter" prefHeight="25.0" prefWidth="348.0" promptText="Enter Zip/Postal Code">
                <VBox.margin>
                   <Insets left="100.0" right="100.0" top="15.0" />
                </VBox.margin></TextField>

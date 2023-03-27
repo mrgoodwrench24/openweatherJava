@@ -5,6 +5,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 
 import java.io.IOException;
 import java.net.URL;
@@ -55,6 +57,18 @@ public class WeatherViewController implements Initializable {
 
 
 
+
+    }
+
+    @FXML
+    void onKeyPressedEnter(KeyEvent event) {
+        if(event.getCode() == KeyCode.ENTER){
+            try {
+                onActionSearchButton(new ActionEvent());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
     }
 
