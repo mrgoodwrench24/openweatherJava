@@ -17,7 +17,7 @@ public class OpenWeatherMapApi {
     private static String city;
 
     private static String getApiKey(){
-        File keyReader = new File("src/Model/apiKey.txt");
+        File keyReader = new File("src/Model/apikey.txt");
         try {
             Scanner myReader;
             myReader = new Scanner(keyReader);

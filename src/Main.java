@@ -13,7 +13,7 @@ public class Main extends Application {
 
         Parent root = null;
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/weatherView.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/weatherView.fxml"));
         root = loader.load();
         Scene scene = new Scene(root);
         stage.setScene(scene);

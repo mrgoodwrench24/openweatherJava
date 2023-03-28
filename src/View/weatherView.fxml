@@ -95,7 +95,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label text="Todays High:" GridPane.rowIndex="3">
+                  <Label text="Max Temp:" GridPane.rowIndex="3">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -108,7 +108,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label text="Todays Low:" GridPane.rowIndex="4">
+                  <Label text="Min Temp:" GridPane.rowIndex="4">
                      <font>
                         <Font size="18.0" />
                      </font>
